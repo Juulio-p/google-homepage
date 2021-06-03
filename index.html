@@ -4,6 +4,7 @@
 
 <body> 
 
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
     <link rel="stylesheet" href="Style.css">
 
     <div id="logo">
@@ -13,24 +14,38 @@
     <div>
 
         <ntp-realbox id="realbox" shown="">
+
         <div id="inputWrapper">
+
+            <span class="material-icons">
+                search
+                </span>
+                
             <input id="input" type="search" autocomplete="off" spellcheck="false" role="combobox" placeholder="Search Google or type a URL" aria-live="polite">
             <ntp-realbox-icon id="icon" in-searchbox="" background-image="" mask-image="search.svg">
                 <div id="imageContainer" style="background-color: transparent;"><img id="image" src="">
                     <img id="image" src="">
                 </div>
-                <div id="icon" style="-webkit-mask-image: url(search.svg);"></div>
+                <div id="icon" style="-webkit-mask-image: url(search.svg);">
+                
+          
+                
+                </div>
             </ntp-realbox-icon>
-            <button id="voiceSearchButton" title="Search by voice"></button>
-            <ntp-realbox-dropdown id="matches" role="listbox" hidden="">
+           
+            
+            <span class="material-icons">
+                settings_voice
+                </span>
 
-            </ntp-realbox-dropdown>
+
+            
         </div>
        
         </ntp-realbox>
 
        
-        
+       
     
         
 </div>
