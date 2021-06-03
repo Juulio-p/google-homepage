@@ -1,0 +1,70 @@
+#logo{
+    height:233px;
+    display: block;
+    margin-top:89px;
+    width: 50%;
+    padding-left: 30%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: var(--search-box-bg, white);
+}
+@media only screen and (max-height:768px){
+    #logo{margin-top:47px}
+    }
+
+    #input{
+    background-color: var(--search-box-bg, white);
+    border: none;
+   
+    font-family: inherit;
+    font-size: inherit;
+    height: 100%;
+    outline: none;
+    padding-inline-end: 44px;
+    padding-inline-start: 52px;
+    position: relative;
+    width: 100%;
+}
+    
+    body{
+        font-size: small;
+
+    }
+
+
+    #voiceSearchButton {
+        
+    background: url(chrome://new-tab-page/icons/googlemic_clr_24px.svg) no-repeat center;
+    background-size: 21px 21px;
+    border: none;
+    border-radius: 2px;
+    cursor: pointer;
+    height: 100%;
+    outline: none;
+    padding: 0;
+    pointer-events: auto;
+    position: absolute;
+    right: 16px;
+    width: 26px;
+}
+button {
+    appearance: auto;
+   
+    text-rendering: auto;
+    color: -internal-light-dark(black, white);
+    letter-spacing: normal;
+    word-spacing: normal;
+    text-transform: none;
+    text-indent: 0px;
+    text-shadow: none;
+    display: inline-block;
+    text-align: center;
+    align-items: flex-start;
+
+}
+    #ntp-realbox-icon {
+        height: 100%;
+        left: 12px;
+        position: absolute;
+        top: 0;
+    }
