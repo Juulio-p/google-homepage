@@ -1,54 +1,76 @@
 <!DOCTYPE html>
 <html lang="en">
 
-
-<body> 
-
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
     <link rel="stylesheet" href="Style.css">
+
+<nav class= navbar id=nav_link>
+
+    <ul>
+        <li>gmail</li>
+        <li>images</li>
+        <li>
+            <span class="material-icons">
+            drag_indicator
+            </span>
+        </li>
+
+
+
+    </ul>
+
+</nav>
+
+
+
+<body> 
 
     <div id="logo">
     <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png">
     </div>
 
-    <div>
+  
 
-        <ntp-realbox id="realbox" shown="">
+        <realbox id="realbox" >
 
         <div id="inputWrapper">
-
-            <span class="material-icons">
-                search
-                </span>
-                
-            <input id="input" type="search" autocomplete="off" spellcheck="false" role="combobox" placeholder="Search Google or type a URL" aria-live="polite">
-            <ntp-realbox-icon id="icon" in-searchbox="" background-image="" mask-image="search.svg">
-                <div id="imageContainer" style="background-color: transparent;"><img id="image" src="">
-                    <img id="image" src="">
-                </div>
-                <div id="icon" style="-webkit-mask-image: url(search.svg);">
-                
-          
-                
-                </div>
-            </ntp-realbox-icon>
-           
             
-            <span class="material-icons">
+
+            <!--   Below Is how the search Icon Was made-->
+            <ntp-realbox-icon id="icon" in-searchbox="" background-image="" mask-image="search.svg">
+                <div id="imageContainer" style="background-color: transparent;">
+                </div>
+
+            </ntp-realbox-icon>
+                <span class="material-icons" id="icon">
+                    search
+                    </span>
+                    
+                    <!--   Below Is how the Search Icon Was made-->
+    
+            <input id="input" type="search" autocomplete="off" spellcheck="false" role="combobox" placeholder="Search Google or type a URL" aria-live="polite">
+
+<!--   Below Is how the Mic Icon Was made-->
+            <ntp-realbox-icon id="icon" in-searchbox="" background-image="" mask-image="search.svg">
+                <div id="imageContainer" style="background-color: transparent;">
+
+                    
+                </div>
+                
+            </ntp-realbox-icon>
+
+            <span class="material-icons" id="voiceSearchButton" >
                 settings_voice
                 </span>
+ <!--above Is how the Mic Icon Was made-->
 
 
-            
-        </div>
-       
-        </ntp-realbox>
 
-       
-       
-    
-        
-</div>
-    
+
+
+ </ntp-realbox-dropdown>
+  
+        </realbox>
+
 </body>
 
