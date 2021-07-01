@@ -1,5 +1,5 @@
 #logo{
-    height:233px;
+    height:150px;
     display: block;
     margin-top:89px;
     width: 50%;
@@ -73,9 +73,12 @@ nav{
         box-shadow: 0 1px 6px 0 rgb(32 33 36 / 28%);
         font-size: 16px;
         height: var(--ntp-realbox-height);
-        text-align: center;
-        position: absolute;
-        padding-left: 100px;
        
-        
+
+        max-width: 500px;
+  }
+  #realbox{
+      text-align:center;
+      padding-left: 250px;
+      padding-bottom: 400px;
   }
